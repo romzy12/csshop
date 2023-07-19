@@ -7,7 +7,7 @@ class Steam
     const STEAM_ICON_URL = 'http://steamcommunity-a.akamaihd.net/economy/image';
 
     private $inventory = array();
-
+//test
     public function getInventory($steamID)
     {
         $inventory = $this->_getInventory($steamID);
